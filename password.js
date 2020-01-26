@@ -3,13 +3,12 @@ var length = prompt("How many characters would you like? Choose a number between
       console.log(length);
   } else {
     alert("You've selected a number outside of the range. Please choose a number between 8-128.");
-    prompt("How many characters would you like? Choose a number between 8-128.");
+    var length = prompt("How many characters would you like? Choose a number between 8-128.");
     if(length <= 128 && length >= 8) {
         console.log(length);
 }
   }
     
-
 var password = '';
  var userLowercase = confirm("Would you like lowercase letters in your password?");
  var userUppercase = confirm("Would you like uppercase letters in your password?");
